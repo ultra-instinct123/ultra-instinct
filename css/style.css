@@ -7,6 +7,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -420,13 +425,16 @@ p {
         margin: 30px auto;
 
     }
+    .profile .max-width {
+        max-width: 800px;
+    }
     .profile .max-width .column{
-        width: 100%;
+        width: 50%;
     }
     .profile .max-width .column .left{
         display: flex;
         justify-content: center;
-        margin:-10px;
+        margin: 0px auto 60px;
     }
     .profile .max-width .column .right{
         flex: 100%;
