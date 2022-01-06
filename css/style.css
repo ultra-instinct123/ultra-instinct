@@ -7,11 +7,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
 html{
     scroll-behavior: smooth;
 }
